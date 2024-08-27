@@ -1,0 +1,75 @@
+body{
+  overflow-y: hidden;
+  background-color: #dbe8f3;
+}
+
+th,label{
+  font-weight: 100 !important;
+}
+.home-container {
+  background-image: url('https://images.pexels.com/photos/8326553/pexels-photo-8326553.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(48, 48, 48);
+  padding: 0px 20px;
+}
+
+.home-caption {
+  background: rgba(0, 0, 0, 0);
+  padding: 40px;
+  border-radius: 15px;
+}
+
+.home-caption h1 {
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+.home-caption p {
+  font-size: 1.5rem;
+  font-weight: lighter;
+  margin-top: 10px;
+}
+
+.aboutus-container {
+  background-image: url('https://images.pexels.com/photos/8326553/pexels-photo-8326553.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #2b2c2c;
+  padding: 20px;
+}
+
+.aboutus-caption {
+  padding: 50px;
+  border-radius: 20px;
+  max-width: 800px;
+  max-height: 800px;
+}
+
+.aboutus-caption h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.aboutus-caption p {
+  font-size: 1.4rem;
+  margin-top: 15px;
+  line-height: 50px !important;
+}
+
+input::placeholder {
+  color: #6c757d; /* Light grey color for the placeholder */
+  font-size: 0.875rem; /* Slightly smaller font size */
+  font-weight: 300; /* Thin font weight */
+}
